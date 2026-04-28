@@ -1,7 +1,7 @@
 ---
 layout: page
 title: 关于作者
-subtitle: 分布式架构专家 / 终身学习者
+subtitle: 分布式架构专家 / AI Agent专家 / 终身学习者
 permalink: /aboutme/
 ---
 
@@ -92,19 +92,22 @@ permalink: /aboutme/
     flex-wrap: wrap;
     gap: 20px;
     margin: 40px 0;
+    align-items: stretch; /* 确保子元素高度拉伸一致 */
 }
 .radar-container {
     flex: 1;
     min-width: 300px;
-    height: 350px;
+    height: 400px; /* 统一设置高度 */
     background: #fff;
     border-radius: 8px;
     box-shadow: 0 4px 6px rgba(0,0,0,0.05);
     padding: 10px;
+    box-sizing: border-box; /* 包含 padding */
 }
 .mindmap-container {
     flex: 1;
     min-width: 300px;
+    height: 400px; /* 统一设置高度 */
     background: #fff;
     border-radius: 8px;
     box-shadow: 0 4px 6px rgba(0,0,0,0.05);
@@ -115,12 +118,12 @@ permalink: /aboutme/
     cursor: zoom-in; /* 添加放大镜鼠标样式 */
     position: relative;
     transition: all 0.3s ease;
-    /* overflow: hidden;  移除这个属性，避免遮挡渲染后的元素，交由内部自适应 */
+    box-sizing: border-box; /* 包含 padding */
 }
 /* 针对 Mermaid SVG 设定自适应宽高，防止留白和溢出 */
 .mindmap-container .mermaid {
     width: 100%;
-    height: 350px; /* 给外层容器固定高度，配合雷达图 */
+    height: 100%; /* 占满容器高度 */
     display: flex;
     align-items: center;
     justify-content: center;
@@ -278,7 +281,7 @@ permalink: /aboutme/
         <p>CK·黄</p>
         <p><span class="prompt">ckhuang@macbook:~$</span> cat profile.json</p>
         <p>{<br>
-        &nbsp;&nbsp;"role": "分布式架构专家 / 终身学习者",<br>
+        &nbsp;&nbsp;"role": "分布式架构专家 / AI Agent专家 / 终身学习者",<br>
         &nbsp;&nbsp;"status": "热爱技术与开源，对新技术保持高度敏感",<br>
         &nbsp;&nbsp;"mission": "致力于将技术与业务场景深度融合"<br>
         }</p>
