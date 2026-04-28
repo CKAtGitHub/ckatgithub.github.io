@@ -3,7 +3,8 @@ layout: post
 title: "深度解析 Claude Code：顶尖 AI Coding Agent 的工程化设计哲学"
 subtitle: "从 Prompt, Context 到 Harness 的高阶实践，打造 95 分的智能体"
 date: 2026-04-28 16:24:42 +0800
-tags: [AI Agent, Claude, 架构设计, 提示词工程]
+tags: [AI Agent, 架构设计, 最佳实践, LLM]
+keywords: "AI Agent, 架构设计, 最佳实践, LLM, 森林有鱼, 有鱼智界, CK·黄, 终身学习, AI员工, AI, 人工智能, 技术分享"
 comments: true
 ---
 

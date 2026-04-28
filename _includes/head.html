@@ -36,8 +36,11 @@
   <meta name="theme-color" content="{{ site.mobile-theme-col }}">
   {% endif %}
 
-  {% if site.keywords %}
-  <meta name="keywords" content="{{ site.keywords }}">
+  <!-- 动态合并页面级关键字和网站全局关键字，以增强单篇博客的 SEO 和 GEO 表现 -->
+  {% capture page_keywords %}{% if page.keywords %}{{ page.keywords | join: ', ' }}{% elsif page.tags %}{{ page.tags | join: ', ' }}{% endif %}{% endcapture %}
+  {% assign page_keywords = page_keywords | strip %}
+  {% if page_keywords != "" or site.keywords %}
+  <meta name="keywords" content="{% if page_keywords != "" %}{{ page_keywords }}{% if site.keywords %}, {% endif %}{% endif %}{{ site.keywords }}">
   {% endif %}
 
   {% if site.rss-description %}
