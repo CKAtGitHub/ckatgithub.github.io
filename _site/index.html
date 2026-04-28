@@ -821,6 +821,49 @@ document.addEventListener("DOMContentLoaded", function() {
 });
 </script>
 
+<!-- 引入 Mermaid 支持，将 mermaid 语法的代码块自动渲染为图表 -->
+<script type="module">
+  import mermaid from 'https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.esm.min.mjs';
+
+  function initMermaid() {
+    // 查找所有被 kramdown 渲染出来的 mermaid 代码块
+    const mermaidBlocks = document.querySelectorAll("pre code.language-mermaid");
+    if (mermaidBlocks.length > 0) {
+      mermaidBlocks.forEach(function(block) {
+        // 获取 mermaid 代码内容
+        const text = block.textContent;
+        // 创建一个用于渲染图表的 div 容器，赋予 mermaid 类名
+        const mermaidDiv = document.createElement('div');
+        mermaidDiv.className = 'mermaid';
+        mermaidDiv.textContent = text;
+        
+        // 替换原本的 pre 标签（包含 code 标签）为新的 div
+        const preTag = block.parentNode;
+        preTag.parentNode.replaceChild(mermaidDiv, preTag);
+      });
+
+      // 根据当前网站主题初始化 mermaid 的主题
+      const currentTheme = document.documentElement.getAttribute("data-theme") === "dark" ? "dark" : "default";
+      mermaid.initialize({ 
+        startOnLoad: false, 
+        theme: currentTheme,
+        // 使用 loose 模式防止某些特定渲染被阻止
+        securityLevel: 'loose'
+      });
+      // 触发图表渲染
+      mermaid.run();
+    }
+  }
+
+  // 确保在 DOM 加载完成后执行。如果 module script 加载较晚，直接执行。
+  if (document.readyState === 'loading') {
+    document.addEventListener("DOMContentLoaded", initMermaid);
+  } else {
+    initMermaid();
+  }
+</script>
+
+
 
 </body>
 </html>
