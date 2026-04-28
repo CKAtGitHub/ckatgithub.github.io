@@ -15,10 +15,10 @@ comments: true
             <div style="width: 12px; height: 12px; border-radius: 50%; background-color: #ffbd2e;"></div>
             <div style="width: 12px; height: 12px; border-radius: 50%; background-color: #27c93f;"></div>
         </div>
-        <div style="color: #ccc; font-size: 0.9em;">bash - ckhuang@macbook:~</div>
+        <div style="color: #ccc; font-size: 0.9em;">bash</div>
     </div>
     <div>
-        <p style="margin: 5px 0; line-height: 1.6;"><span style="color: #008AFF; font-weight: bold;">ckhuang@macbook:~$</span> 很多开发者在构建 Agent 时都有个错觉：写个几百字的 System Prompt，就以为大功告成了。结果一上生产，模型动不动就“失忆”、胡编乱造，甚至一通乱操作把库给删了。为什么？因为你只是在教它“怎么做”，却忘了给它“戴上缰绳”。读完这篇文章，带你从 Claude Code 的底层设计，揭秘如何构建一个能干脏活累活的 95 分生产级 Agent。 <span style="display: inline-block; width: 8px; height: 16px; background-color: #00ff00; vertical-align: middle;"></span></p>
+        <p style="margin: 5px 0; line-height: 1.6;"><span style="color: #008AFF; font-weight: bold;">ckhuang@macbookpro:~$</span> 很多开发者在构建 Agent 时都有个错觉：写个几百字的 System Prompt，就以为大功告成了。结果一上生产，模型动不动就“失忆”、胡编乱造，甚至一通乱操作把库给删了。为什么？因为你只是在教它“怎么做”，却忘了给它“戴上缰绳”。读完这篇文章，带你从 Claude Code 的底层设计，揭秘如何构建一个能干脏活累活的 95 分生产级 Agent。 <span style="display: inline-block; width: 8px; height: 16px; background-color: #00ff00; vertical-align: middle;"></span></p>
     </div>
 </div>
 
@@ -82,9 +82,9 @@ Claude Code 将主循环重构为异步生成器 (`async function*`)，实现了
             <div style="width: 12px; height: 12px; border-radius: 50%; background-color: #ffbd2e;"></div>
             <div style="width: 12px; height: 12px; border-radius: 50%; background-color: #27c93f;"></div>
         </div>
-        <div style="color: #ccc; font-size: 0.9em;">bash - ckhuang@macbook:~</div>
+        <div style="color: #ccc; font-size: 0.9em;">bash</div>
     </div>
     <div>
-        <p style="margin: 5px 0; line-height: 1.6;"><span style="color: #008AFF; font-weight: bold;">ckhuang@macbook:~$</span> 总结一下，构建生产级 Agent 的密码在于：用 Prompt 筑基，用 Context 控场，用 Harness 托底。在这个 AI 技术狂飙的时代，不沉溺于单点突破，掌握全局工程架构的设计思维，才是我们驾驭 AI、而不是被 AI 取代的关键所在。 <span style="display: inline-block; width: 8px; height: 16px; background-color: #00ff00; vertical-align: middle;"></span></p>
+        <p style="margin: 5px 0; line-height: 1.6;"><span style="color: #008AFF; font-weight: bold;">ckhuang@macbookpro:~$</span> 总结一下，构建生产级 Agent 的密码在于：用 Prompt 筑基，用 Context 控场，用 Harness 托底。在这个 AI 技术狂飙的时代，不沉溺于单点突破，掌握全局工程架构的设计思维，才是我们驾驭 AI、而不是被 AI 取代的关键所在。 <span style="display: inline-block; width: 8px; height: 16px; background-color: #00ff00; vertical-align: middle;"></span></p>
     </div>
 </div>

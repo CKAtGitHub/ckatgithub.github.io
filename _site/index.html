@@ -203,6 +203,13 @@
         }, \
        \
         { \
+          "title"    : "深度解析 Claude Code：顶级 AI Agent 的 Prompt / Context / Harness 设计哲学", \
+          "category" : "AI Agent大模型架构设计Claude Code", \
+          "url"      : "/2026-04-27-claude-code-agent-design/", \
+          "date"     : "April 27, 2026" \
+        }, \
+       \
+        { \
           "title"    : "构建生产就绪的 tRPC API：Apollo Federation 的 TypeScript 替代方案", \
           "category" : "AIInfoQ人工智能", \
           "url"      : "/2026-04-27-%E6%9E%84%E5%BB%BA%E7%94%9F%E4%BA%A7%E5%B0%B1%E7%BB%AA%E7%9A%84-tRPC-API-Apollo-Federation-%E7%9A%84-TypeScript-%E6%9B%BF%E4%BB%A3%E6%96%B9%E6%A1%88/", \
@@ -629,9 +636,13 @@
 
     
 
-    <a href="http://localhost:4000/2026-04-27-%E6%9E%84%E5%BB%BA%E7%94%9F%E4%BA%A7%E5%B0%B1%E7%BB%AA%E7%9A%84-tRPC-API-Apollo-Federation-%E7%9A%84-TypeScript-%E6%9B%BF%E4%BB%A3%E6%96%B9%E6%A1%88/">
-      <h2 class="post-title">构建生产就绪的 tRPC API：Apollo Federation 的 TypeScript 替代方案</h2>
+    <a href="http://localhost:4000/2026-04-27-claude-code-agent-design/">
+      <h2 class="post-title">深度解析 Claude Code：顶级 AI Agent 的 Prompt / Context / Harness 设计哲学</h2>
 
+      
+        <h3 class="post-subtitle">
+        从源码实现看大模型应用的工程化进阶，别再只盯着提示词了
+        </h3>
       
     </a>
 
@@ -647,12 +658,25 @@
 
     <div class="post-entry">
       
-      我得跟你们说句实话。六个月前，我还是 GraphQL Federation 的布道者。我们花了六个月的时间，利用 Apollo 构建了一个联邦图，其中包含模式拼接、网关配置，以及一套复杂的 CI/CD 管道（每次提交都会重新生成类型）。纸上谈兵时，这套方案看起来很完美。但在生产环境中呢？每次部署都像是要发生一场灾难。
+      
+
+    
+        
+            
+            
+            
+        
+        bash
+    
+    
+        ckhuang@macbookpro:~$ 很多开发者在构建 Agent 时都有个错觉：写个几百字的 System Prompt，就以为大功告成了。结果一上生产，模型动不动就“失忆”、胡编乱造，甚至一通乱操作把库给删了。为什么？因为你只是在教它“怎么做”，却忘了给它“戴上缰绳”。读完这篇文章，带你从 Claude Code 的底层设计，揭秘如何构建一个能干脏活累活的 95 分生产级 Agent。 
+    
+
 
 
       
       
-        <a href="http://localhost:4000/2026-04-27-%E6%9E%84%E5%BB%BA%E7%94%9F%E4%BA%A7%E5%B0%B1%E7%BB%AA%E7%9A%84-tRPC-API-Apollo-Federation-%E7%9A%84-TypeScript-%E6%9B%BF%E4%BB%A3%E6%96%B9%E6%A1%88/" class="post-read-more">[Read&nbsp;More]</a>
+        <a href="http://localhost:4000/2026-04-27-claude-code-agent-design/" class="post-read-more">[Read&nbsp;More]</a>
       
     </div>
     
@@ -661,11 +685,13 @@
     <div class="blog-tags">
       <span>Tags:</span>
       
-      <a href="http://localhost:4000/tags#AI">AI</a>
+      <a href="http://localhost:4000/tags#AI Agent">AI Agent</a>
       
-      <a href="http://localhost:4000/tags#InfoQ">InfoQ</a>
+      <a href="http://localhost:4000/tags#大模型">大模型</a>
       
-      <a href="http://localhost:4000/tags#人工智能">人工智能</a>
+      <a href="http://localhost:4000/tags#架构设计">架构设计</a>
+      
+      <a href="http://localhost:4000/tags#Claude Code">Claude Code</a>
       
     </div>
     

@@ -274,18 +274,18 @@ permalink: /aboutme/
             <div class="term-btn term-min"></div>
             <div class="term-btn term-max"></div>
         </div>
-        <div class="terminal-title">bash - ckhuang@macbook:~</div>
+        <div class="terminal-title">bash</div>
     </div>
     <div class="terminal-content">
-        <p><span class="prompt">ckhuang@macbook:~$</span> whoami</p>
+        <p><span class="prompt">ckhuang@macbookpro:~$</span> whoami</p>
         <p>CK·黄</p>
-        <p><span class="prompt">ckhuang@macbook:~$</span> cat profile.json</p>
+        <p><span class="prompt">ckhuang@macbookpro:~$</span> cat profile.json</p>
         <p>{<br>
         &nbsp;&nbsp;"role": "分布式架构专家 / AI Agent专家 / 终身学习者",<br>
         &nbsp;&nbsp;"status": "热爱技术与开源，对新技术保持高度敏感",<br>
         &nbsp;&nbsp;"mission": "致力于将技术与业务场景深度融合"<br>
         }</p>
-        <p><span class="prompt">ckhuang@macbook:~$</span> <span class="cursor"></span></p>
+        <p><span class="prompt">ckhuang@macbookpro:~$</span> <span class="cursor"></span></p>
     </div>
 </div>
 
