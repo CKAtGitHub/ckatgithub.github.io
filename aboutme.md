@@ -326,37 +326,41 @@ permalink: /aboutme/
 <div class="skills-grid">
     <div class="skill-card">
         <h4>🛠️ 分布式架构专家</h4>
-        <p><strong>10 年以上研发经验</strong>及 <strong>5 年以上架构设计经验</strong>，擅长高并发、高可用分布式系统设计。</p>
+        <p>拥有 <strong>15 年以上研发</strong>及 <strong>6 年以上架构设计</strong>经验，主导千万级并发与高可用分布式系统演进。</p>
         <ul>
-            <li>精通 <strong>Spring Cloud Alibaba</strong> 与 <strong>Kubernetes</strong> 云原生技术。</li>
-            <li>具备丰富的微服务架构实战能力，提供稳定可靠的技术底座。</li>
+            <li><strong>云原生与微服务底座</strong>：主导基于 <strong>Spring Cloud Alibaba</strong> 与 <strong>Kubernetes</strong> 的企业级云原生演进。精通服务网格（Service Mesh）、全链路压测及多云容器化编排，支撑千级节点规模的高可用集群运行。</li>
+            <li><strong>高并发高可用架构</strong>：主导设计支撑千万级 DAU、核心接口十万级 QPS 的高并发交易系统。落地异地多活、全链路容灾与优雅降级方案，保障核心系统 SLA 达到 99.99% 以上。</li>
+            <li><strong>复杂业务领域建模</strong>：深度践行 <strong>DDD（领域驱动设计）</strong>方法论，解决复杂历史系统架构腐化难题，精准划定微服务边界，沉淀出高复用、高扩展的企业级业务中台。</li>
         </ul>
     </div>
 
     <div class="skill-card">
-        <h4>📊 大数据与中间件深度掌握</h4>
-        <p>具备处理海量数据的实战经验与核心组件的深度调优能力。</p>
+        <h4>📊 大数据与中间件深度调优</h4>
+        <p>具备 <strong>PB 级海量数据</strong>的架构实战经验，以及核心中间件的源码级理解与极致调优能力。</p>
         <ul>
-            <li>熟练掌握 <strong>Spark、Flink、Kafka</strong> 等大数据处理技术。</li>
-            <li>深入理解 <strong>MySQL、Redis、RocketMQ</strong> 等，擅长性能调优与复杂排查。</li>
+            <li><strong>批流一体计算架构</strong>：精通基于 <strong>Spark、Flink</strong> 的实时/离线计算平台建设。主导落地实时用户画像、秒级风控引擎等核心数据业务，端到端数据处理延迟稳定控制在毫秒级。</li>
+            <li><strong>中间件极致性能调优</strong>：深入理解底层机制，主导 <strong>Kafka / RocketMQ</strong> 的亿级消息高吞吐与零丢失设计。精通 <strong>Redis</strong> 极热点数据多级缓存架构及 <strong>MySQL</strong> 百亿级分库分表与复杂慢 SQL 深度调优。</li>
+            <li><strong>复杂故障排查与 APM</strong>：具备顶尖的线上疑难杂症（OOM、CPU 飙高、复杂死锁）排查能力，主导建设全栈 APM 监控与智能预警体系，将线上故障平均恢复时间（MTTR）大幅缩短 50% 以上。</li>
         </ul>
     </div>
 
     <div class="skill-card">
-        <h4>🚀 技术管理与团队赋能</h4>
-        <p>拥有 <strong>5 年以上技术团队管理经验</strong>，具备优秀的技术选型和评估能力。</p>
+        <h4>🚀 技术管理与组织效能赋能</h4>
+        <p>拥有 <strong>5 年以上中大型技术团队管理经验</strong>，擅长打造高绩效工程师文化与敏捷交付体系。</p>
         <ul>
-            <li>具备从 0 到 1 组建并带领团队攻坚的成功经验。</li>
-            <li>通过 Code Review 与技术分享提升代码质量，推动技术演进。</li>
+            <li><strong>高绩效组织建设</strong>：具备从 0 到 1 组建并带领团队攻坚的成功经验。建立完善的人才梯队培养、职级评估与 OKR 绩效体系，打造具备极强战斗力与自驱力的研发铁军。</li>
+            <li><strong>工程效能与研发体系</strong>：主导企业级 DevOps 平台建设，制定并落地严苛的 <strong>Code Review</strong> 规范与自动化 CI/CD 流程。通过引入效能度量数据体系，将需求交付周期缩短 30%，千行代码 Bug 率大幅降低。</li>
+            <li><strong>技术演进与架构布道</strong>：统筹公司级架构评审与前瞻性技术选型，平衡技术债务与业务交付。积极推动内部开源与技术分享，培育“追求卓越”的技术氛围，持续赋能业务高速增长。</li>
         </ul>
     </div>
 
     <div class="skill-card">
-        <h4>🤖 AI 工程化能力</h4>
-        <p>紧跟行业趋势，具备将 AI 算法落地到实际业务中的架构思维。</p>
+        <h4>🤖 AI Agent 专家与企业级落地</h4>
+        <p>具备<strong>全栈 AI Agent 开发</strong>能力，主导推动组织级 AI 变革，提供端到端的企业级系统化解决方案。</p>
         <ul>
-            <li>熟悉 <strong>TensorFlow、PyTorch</strong> 等主流 AI 框架。</li>
-            <li>深入了解 <strong>LLM</strong> 及 <strong>Agent 应用架构</strong>，解决模型服务化难题。</li>
+            <li><strong>AI Agent 全栈开发</strong>：基于大语言模型（LLM）构建自主智能体，精通 <strong>Prompt Engineering、Function Calling</strong> 与 <strong>RAG 架构设计</strong>。具备<strong>多 Agent 协作框架、长短记忆管理系统</strong>及<strong>工具链集成</strong>等关键技术模块的深度实现经验。</li>
+            <li><strong>Dify 平台专业级应用</strong>：熟练运用 Dify 平台完成企业级 AI 应用落地全流程。涵盖复杂<strong>可视化工作流编排、自定义工具集成、知识库构建与优化</strong>（检索准确率提升至 90%+）、<strong>多模型路由策略</strong>，以及生产环境下的高可用部署与监控实践。</li>
+            <li><strong>企业 AI 转型落地能力</strong>：拥有推动组织级 AI 变革的系统化方法论。建立业务流程 <strong>AI 改造评估标准</strong>与<strong>降本增效量化指标体系</strong>（核心业务提效达 40%+），主导制定 <strong>AI 产品合规化应用规范、规模化部署运维方案</strong>，并构建了效果追踪与持续优化闭环机制。</li>
         </ul>
     </div>
 </div>
