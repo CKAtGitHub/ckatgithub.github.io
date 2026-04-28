@@ -13,7 +13,7 @@
   <title>404 - Page not found</title>
 
   
-  <meta name="author" content="CK.黄">
+  <meta name="author" content="CK·黄">
   
 
   <meta name="description" content="Whoops, this page doesn&apos;t exist.
@@ -24,7 +24,7 @@
   
 
   
-  <link rel="alternate" type="application/rss+xml" title="黄炳龙@终身学习" href="http://localhost:4000/feed.xml">
+  <link rel="alternate" type="application/rss+xml" title="CK·黄@终身学习" href="http://localhost:4000/feed.xml">
   
 
   
@@ -49,12 +49,7 @@
 
     
       
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic">
-
-
-    
-      
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Fira+Code:wght@400;500&display=swap">
 
 
     
@@ -66,6 +61,8 @@
     
       <link rel="stylesheet" href="/assets/css/beautifuljekyll.css">
     
+      <link rel="stylesheet" href="/assets/css/modern-override.css">
+    
   
 
   
@@ -77,7 +74,7 @@
   
 
   
-  <meta property="og:site_name" content="黄炳龙@终身学习">
+  <meta property="og:site_name" content="CK·黄@终身学习">
   <meta property="og:title" content="404 - Page not found">
   <meta property="og:description" content="Whoops, this page doesn&apos;t exist.
   Move along. (404 error)">
@@ -121,7 +118,7 @@
   
 
 
-  <nav class="navbar navbar-expand-xl navbar-light fixed-top navbar-custom top-nav-regular"><a class="navbar-brand" href="http://localhost:4000/">黄炳龙@终身学习</a><button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#main-navbar" aria-controls="main-navbar" aria-expanded="false" aria-label="Toggle navigation">
+  <nav class="navbar navbar-expand-xl navbar-light fixed-top navbar-custom top-nav-regular"><a class="navbar-brand" href="http://localhost:4000/">CK·黄@终身学习</a><button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#main-navbar" aria-controls="main-navbar" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>
 
@@ -146,7 +143,12 @@
             <span id="nav-search-icon" class="fa fa-search"></span>
             <span id="nav-search-text">Search</span>
           </a>
-        </li></ul>
+        </li><li class="nav-item">
+        <a class="nav-link" id="theme-toggle" href="#" title="Toggle Dark Mode" style="cursor: pointer;">
+          <span class="fa fa-moon" id="theme-toggle-icon"></span>
+        </a>
+      </li>
+    </ul>
   </div>
 
   
@@ -324,7 +326,7 @@
         }, \
        \
         { \
-          "title"    : "黄炳龙@终身学习", \
+          "title"    : "CK·黄@终身学习", \
           "category" : "page", \
           "url"      : "/", \
           "date"     : "January 1, 1970" \
@@ -338,21 +340,21 @@
         }, \
        \
         { \
-          "title"    : "黄炳龙@终身学习", \
+          "title"    : "CK·黄@终身学习", \
           "category" : "page", \
           "url"      : "/page2/", \
           "date"     : "January 1, 1970" \
         }, \
        \
         { \
-          "title"    : "黄炳龙@终身学习", \
+          "title"    : "CK·黄@终身学习", \
           "category" : "page", \
           "url"      : "/page3/", \
           "date"     : "January 1, 1970" \
         }, \
        \
         { \
-          "title"    : "黄炳龙@终身学习", \
+          "title"    : "CK·黄@终身学习", \
           "category" : "page", \
           "url"      : "/page4/", \
           "date"     : "January 1, 1970" \
@@ -440,7 +442,7 @@
       
       <p class="copyright text-muted">
       
-        CK.黄
+        CK·黄
         &nbsp;&bull;&nbsp;
       
       2026
@@ -497,6 +499,43 @@
 
 
 
+
+<script>
+document.addEventListener("DOMContentLoaded", function() {
+  const toggleBtn = document.getElementById("theme-toggle");
+  const toggleIcon = document.getElementById("theme-toggle-icon");
+  const currentTheme = localStorage.getItem("theme");
+  
+  if (currentTheme === "dark") {
+    document.documentElement.setAttribute("data-theme", "dark");
+    toggleIcon.classList.replace("fa-moon", "fa-sun");
+  } else if (currentTheme === "light") {
+    document.documentElement.setAttribute("data-theme", "light");
+    toggleIcon.classList.replace("fa-sun", "fa-moon");
+  } else if (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches) {
+    document.documentElement.setAttribute("data-theme", "dark");
+    toggleIcon.classList.replace("fa-moon", "fa-sun");
+  }
+
+  toggleBtn.addEventListener("click", function(e) {
+    e.preventDefault();
+    let theme = document.documentElement.getAttribute("data-theme");
+    if (!theme && window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches) {
+      theme = "dark";
+    }
+    
+    if (theme === "dark") {
+      document.documentElement.setAttribute("data-theme", "light");
+      localStorage.setItem("theme", "light");
+      toggleIcon.classList.replace("fa-sun", "fa-moon");
+    } else {
+      document.documentElement.setAttribute("data-theme", "dark");
+      localStorage.setItem("theme", "dark");
+      toggleIcon.classList.replace("fa-moon", "fa-sun");
+    }
+  });
+});
+</script>
 
 
 </body>

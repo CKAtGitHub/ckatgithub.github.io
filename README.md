@@ -1,6 +1,6 @@
 # 黄炳龙@终身学习 (Personal Blog)
 
-本项目是 CK.黄 (黄炳龙) 的个人博客网站，基于 [Beautiful Jekyll](https://beautifuljekyll.com/) 主题构建，托管在 GitHub Pages 上 (ckatgithub.github.io)。
+本项目是 CK·黄 (黄炳龙) 的个人博客网站，基于 [Beautiful Jekyll](https://beautifuljekyll.com/) 主题构建，托管在 GitHub Pages 上 (ckatgithub.github.io)。
 
 ## 1. 本地编译与启动项目 (Local Build & Run)
 

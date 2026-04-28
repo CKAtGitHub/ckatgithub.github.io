@@ -1,5 +1,5 @@
 # 项目简介 (Project Overview)
-本项目是 CK.黄 (黄炳龙) 的个人博客网站，基于 [Beautiful Jekyll](https://beautifuljekyll.com/) 主题构建，托管在 GitHub Pages 上 (ckatgithub.github.io)。
+本项目是 CK·黄 (黄炳龙) 的个人博客网站，基于 [Beautiful Jekyll](https://beautifuljekyll.com/) 主题构建，托管在 GitHub Pages 上 (ckatgithub.github.io)。
 网站名称：黄炳龙@终身学习
 
 # 技术栈 (Tech Stack)
