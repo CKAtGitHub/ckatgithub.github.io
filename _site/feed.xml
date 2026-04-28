@@ -12,6 +12,17 @@
     
     
       <item>
+        <title>深度解析 Claude Code：顶尖 AI Coding Agent 的工程化设计哲学</title>
+        <description>
+          从 Prompt, Context 到 Harness 的高阶实践，打造 95 分的智能体 - 
+          bash ckhuang@macbookpro:~$ 很多开发者以为写个花哨的 Prompt 就是做好了提示词工程，结果一到长程复杂任务，Agent 就开始“胡言乱语”或“原地转圈”。如果你想做一个 95 分的 Agent，光靠 Prompt 顶多拿 70 分。剩下的 25 分，全藏在 Context（上下文）和 Harness（脚手架）的极致工程打磨里。 最近在深度体验 Claude Code 这个 CLI 级 AI Coding Agent 时，我常常被它处理高复杂度任务的稳健性所惊艳。剥开 Claude Opus 4.6 基座模型的强大外衣，你会发现其底层工程设计堪称“教科书级别”。 今天，我将结合在分布式系统与 AI Agent 架构上的实战经验，从 Prompt Engineering（怎么说）、Context Engineering（看什么） 以及 Harness Engineering（怎么管） 三大维度，为你深度拆解 Claude Code 的设计哲学。读完本文，你将获得一套可直接复用到企业级 Agent 架构中的高阶方法论。 一、Prompt Engineering：从“写作文”到“流水线组装” 过去，大家总把...
+        </description>
+        <pubDate>Tue, 28 Apr 2026 04:24:42 -0400</pubDate>
+        <link>http://localhost:4000/2026-04-28-claude-code-engineering-design-practice/</link>
+        <guid isPermaLink="true">http://localhost:4000/2026-04-28-claude-code-engineering-design-practice/</guid>
+      </item>
+    
+      <item>
         <title>构建生产就绪的 tRPC API：Apollo Federation 的 TypeScript 替代方案</title>
         <description>
           
