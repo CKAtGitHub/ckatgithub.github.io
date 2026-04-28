@@ -1,0 +1,7 @@
+- [x] 已创建 `.trae/skills/blog-generator` 目录
+- [x] `SKILL.md` 包含正确的 Frontmatter (`name`, `description`)
+- [x] `SKILL.md` 的内容明确注入了 CK·黄 的个人画像（分布式架构、大数据、AI工程化、技术管理）
+- [x] `SKILL.md` 的内容完整包含了图片中的四大核心要点（认知缺口、信息流设计、深度洞见、人格化幽默）
+- [x] `SKILL.md` 明确指导智能体使用 WebFetch 等工具读取链接内容
+- [x] `SKILL.md` 明确指导智能体按 Jekyll 规范将文章保存到 `_posts` 目录
+- [x] `SKILL.md` 明确指导智能体调用终端执行 Git Commit 与 Push 操作
