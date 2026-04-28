@@ -8,17 +8,20 @@
 # Name of website
 title: 黄炳龙@终身学习
 
+# Language of the website
+language: zh-CN
+
 # Your name to show in the footer
 author: CK.黄
 
 # --- List of links in the navigation bar --- #
 
 navbar-links:
-  About Me: "关于作者"
-  Resources:
-    - Beautiful Jekyll: "https://beautifuljekyll.com"
-    - Learn markdown: "https://www.markdowntutorial.com/"
-  Author's home: "https://www.ckhuang.com"
+  关于作者: "/aboutme/"
+  友情链接:
+    - 森林有鱼: "https://iyouyu.tech/"
+    - 有鱼智界: "https://zhijie.iyouyu.tech/"
+  作者主页: "https://www.ckhuang.com"
 
 # --- Logo --- #
 

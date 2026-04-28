@@ -1,16 +1,39 @@
 ---
 layout: page
-title: About me
-subtitle: Why you'd want to go on a date with me
+title: 关于作者
+subtitle: 分布式架构专家 / 终身学习者
+permalink: /aboutme/
 ---
 
-My name is Inigo Montoya. I have the following qualities:
+您好，我是 **CK.黄**。我是一名热爱技术与开源的开发者，始终对新技术保持高度敏感，致力于将技术与业务场景深度融合。
 
-- I rock a great mustache
-- I'm extremely loyal to my family
+以下是我的核心能力与经验总结：
 
-What else do you need?
+### 🛠️ 分布式架构专家
+拥有 **10 年以上研发经验**及 **5 年以上架构设计经验**，擅长高并发、高可用分布式系统设计。
+- 精通 **Spring Cloud Alibaba** 与 **Kubernetes** 云原生技术。
+- 具备丰富的微服务架构实战能力，能够为复杂业务场景提供稳定可靠的技术底座。
 
-### My story
+### 📊 大数据与中间件深度掌握
+具备处理海量数据的实战经验与核心组件的深度调优能力。
+- 熟练掌握 **Spark、Flink、Kafka** 等大数据处理技术。
+- 深入理解 **MySQL、Redis、RocketMQ** 等核心组件原理，擅长性能瓶颈调优与线上复杂问题排查。
 
-To be honest, I'm having some trouble remembering right now, so why don't you just watch [my movie](https://en.wikipedia.org/wiki/The_Princess_Bride_%28film%29) and it will answer **all** your questions.
+### 🚀 技术管理与团队赋能
+拥有 **5 年以上技术团队管理经验**，具备优秀的技术选型和新技术评估能力。
+- 具备从 0 到 1 组建并带领团队攻坚的成功经验。
+- 注重团队成长，通过代码审查（Code Review）与技术分享有效提升团队整体代码质量，推动技术栈持续演进与升级。
+
+### 🤖 AI 工程化能力
+紧跟行业趋势，具备将 AI 算法落地到实际业务中的架构思维。
+- 熟悉 **TensorFlow、PyTorch** 等主流 AI 框架。
+- 深入了解**大语言模型（LLM）**及 **Agent 应用架构**。
+- 能够有效解决模型服务化过程中的工程化落地难题，实现 AI 与业务的深度融合。
+
+### 💡 综合素质
+- 拥有出色的**逻辑思维与抽象能力**。
+- 对新技术保持高度敏感，具备极强的**快速学习与适应能力**，始终走在技术前沿。
+
+---
+
+> *“终身学习，持续精进。”*

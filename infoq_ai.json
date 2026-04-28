@@ -1,0 +1,102 @@
+[
+  {
+    "title": "Cloudflare Sandboxes 正式发布，为 AI 代理提供持久化隔离环境",
+    "link": "https://www.infoq.cn/article/Vtb1hXgxEAEueGtcAlUj?utm_source=rss&utm_medium=article",
+    "summary": "Cloudflare 在其 Agents Week 活动中宣布，Sandboxes 和 Cloudflare Containers 正式上线，为 AI 代理工作负载提供隔离的持久化 Linux 环境。"
+  },
+  {
+    "title": "Agent 的下一站：基于长期记忆系统 EverOS 的自我演进｜AICon上海",
+    "link": "https://www.infoq.cn/article/eI5gqlAawBxPPfZZ2B33?utm_source=rss&utm_medium=article",
+    "summary": "结合 OpenClaw 和近期行业的热点事件，阐述未来 Agent 的发展趋势"
+  },
+  {
+    "title": "同一赛道，四种收费：Agent 控制层（Harness）开始分裂",
+    "link": "https://www.infoq.cn/article/Z3MKvAKFC2Hjjk643oKQ?utm_source=rss&utm_medium=article",
+    "summary": "Anthropic、OpenAI、谷歌和微软都认为智能代理控制层是产品，但在定价上存在分歧"
+  },
+  {
+    "title": "Agent 的“记忆断片”困局，该怎么破？",
+    "link": "https://www.infoq.cn/video/AetF3mwIAP5iljCD0iW7?utm_source=rss&utm_medium=article",
+    "summary": "Agent 的“记忆断片”困局，该怎么破？从操作系统、中间件到终端应用方面，拆解Agent记忆断片难题，深聊记忆系统设计与工程化落地。"
+  },
+  {
+    "title": "2026主题征文第一期｜分享你最有价值的龙虾场景与核心 Skill",
+    "link": "https://xie.infoq.cn/article/6dd68fc43dcf05b4634800743?utm_source=rss&utm_medium=article",
+    "summary": "InfoQ 写作社区发起 2026 第一期主题征文邀你分享在业务落地中发现的最有价值龙虾场景，以及支撑这些场景落地的核心技术 Skill、方法论与实战心得。无论是架构设计、性能优化、工程化实践，还是团"
+  },
+  {
+    "title": "数据分析师如何快速建立在 AI 时代最值钱的能力：一份可落地的行动路线图",
+    "link": "https://www.infoq.cn/article/JB3gFJKZfDASpaXWqwHE?utm_source=rss&utm_medium=article",
+    "summary": "每一位卓越的 AI 专家，骨子里都是一流的数据分析师。"
+  },
+  {
+    "title": "摩尔线程最新财报：研发占比超86%，万卡级大规模智算集群落地",
+    "link": "https://www.infoq.cn/article/GitNHq2Sa7K34WjiqmNq?utm_source=rss&utm_medium=article",
+    "summary": "面向未来更大规模的智能计算需求，摩尔线程正基于新一代“花港”架构，推进十万卡级超大规模智算集群建设和超节点等核心技术研发。"
+  },
+  {
+    "title": "世界模型能实时玩了，蚂蚁灵波开源LingBot-World-Fast",
+    "link": "https://www.infoq.cn/article/rkoWDHOOb2VFyIGKwuym?utm_source=rss&utm_medium=article",
+    "summary": "灵光App上线“图生世界”功能，背后是蚂蚁灵波开源世界模型LingBot-World-Fast。"
+  },
+  {
+    "title": "当云区域失效：地缘动荡环境下的高可用重构",
+    "link": "https://www.infoq.cn/article/5qXyqHdrXhaT7iEr24l6?utm_source=rss&utm_medium=article",
+    "summary": "本文结合地缘政治风险重构分布式系统故障模型，建议跨管辖系统以多区域部署替代多可用区作为高可用底线，同时给出落地架构方案、混沌测试手段与 ALE 量化评估模型，为主权弹性建设的成本投入提供决策支撑。"
+  },
+  {
+    "title": "Slack 重构通知系统，设置参与度提升 5 倍",
+    "link": "https://www.infoq.cn/article/aXF7ssED9phrUVg3ipMQ?utm_source=rss&utm_medium=article",
+    "summary": "Slack 对其通知系统进行了重构，引入统一架构以提升跨平台的一致性和用户可控性。此次重设计旨在解决长期存在的问题，包括通知偏好设置碎片化以及行为不可预测，这些问题随着平台规模扩大，已经逐渐成为用户体验不佳和支持成本上升的重要来源。"
+  },
+  {
+    "title": "智能体工程的隐性技术债务",
+    "link": "https://www.infoq.cn/article/VOvh1yB2SrSccjqwABw3?utm_source=rss&utm_medium=article",
+    "summary": "从微服务到Agent，工程复杂度的又一次回归"
+  },
+  {
+    "title": "“我把所有模型都换成了DeepSeek V4”：月账单将降 90%，效果还更好",
+    "link": "https://www.infoq.cn/article/e4UXTsCToLXsRVEWNUqW?utm_source=rss&utm_medium=article",
+    "summary": "三款模型，三种定价逻辑：OpenAI 在涨，Anthropic 在偷偷涨，DeepSeek 则直接掀桌。"
+  },
+  {
+    "title": "构建生产就绪的 tRPC API：Apollo Federation 的 TypeScript 替代方案",
+    "link": "https://www.infoq.cn/article/uB0X3OtzwPVvcy8UyXy1?utm_source=rss&utm_medium=article",
+    "summary": "本文记录了我们从 GraphQL Federation 迁移到 tRPC 的完整过程。"
+  },
+  {
+    "title": "阿里云智能集团高级技术专家刘少伟已确认出席AICon上海站，并分享如何构建企业 Agent 的自动化行动架构",
+    "link": "https://www.infoq.cn/article/gdEkw12WzcrFaspAqB7p?utm_source=rss&utm_medium=article",
+    "summary": "深入探讨 Agent 从原型到量产的工程挑战、数据与记忆的基础设施底座、安全可信的落地保障，以及大模型推理优化、智算架构升级等关键命题。"
+  },
+  {
+    "title": "Anthropic推出面向Claude Code的基于智能体的代码审查功能",
+    "link": "https://www.infoq.cn/article/QyeZg05iakideMTGCQKi?utm_source=rss&utm_medium=article",
+    "summary": "Anthropic为Claude Code引入了新的Code Review功能，新增了一个基于智能体的拉取请求审查系统，可通过多个AI审查器分析代码变更。"
+  },
+  {
+    "title": "北京车展直击：斑马智能甩出车载Agent短剧，比亚迪率先落地，AI让智能座舱又热起来了",
+    "link": "https://www.infoq.cn/article/WjIGlEGAJUmNw8e3JeXO?utm_source=rss&utm_medium=article",
+    "summary": "4月24日，斑马智能在北京车展上发布车载Agent短剧产品“元神小剧”，并宣布该产品将登陆智能座舱，首发落地在比亚迪旗下新能源车型。"
+  },
+  {
+    "title": "Snowflake 作为智能体运行时：从静态管道迈向自主数据系统 ｜ 技术实践",
+    "link": "https://www.infoq.cn/article/GL7YlM38mlEarquKkSE9?utm_source=rss&utm_medium=article",
+    "summary": "本文旨在阐述 AI 智能体的基本概念、其重要性，以及它们将如何从根本上改变我们在 Snowflake 平台上构建数据系统的方式。"
+  },
+  {
+    "title": "Snowflake 上的本体体系：基于 Cortex Code 能力实现从架构到部署 ｜ 技术实践",
+    "link": "https://www.infoq.cn/article/ypFQdKZIlSUC12Wm8A9g?utm_source=rss&utm_medium=article",
+    "summary": "Cortex Code 技能如何将 Snowflake 本体架构转变为可复用的对话式工作流——在单次会话中，从任意关系型模式生成完整的五层技术栈。"
+  },
+  {
+    "title": "Cloudflare 公布 MCP 架构方案，应对企业面临的安全与治理风险",
+    "link": "https://www.infoq.cn/article/eWRlmwIT5ApA2OKL9RYh?utm_source=rss&utm_medium=article",
+    "summary": "Cloudflare 概要介绍了一种参考架构，用于在企业范围内扩展 MCP 部署，并将集中式治理、远程服务器基础设施和成本控制视为生产就绪型代理系统的关键要求。"
+  },
+  {
+    "title": "复杂的项目管理怎么做到「AI 友好」？飞书项目用「开放」给出答案",
+    "link": "https://www.infoq.cn/article/ub0bHyfIRpbO61I876k2?utm_source=rss&utm_medium=article",
+    "summary": "项目管理始终是企业提升生产效率的重要抓手"
+  }
+]
