@@ -16,15 +16,21 @@
 - `_data/`: 包含网站使用的数据文件（如 `ui-text.yml`）。
 
 # 常用命令 (Commands)
+本项目使用 [mise](https://mise.jdx.dev/) 进行环境及任务管理。
 - **安装依赖**: 
   ```bash
-  bundle install
+  mise install      # 安装对应的 Ruby 环境
+  mise run install  # 安装 Gemfile 依赖包
   ```
 - **本地启动开发服务器**: 
   ```bash
-  bundle exec jekyll serve
+  mise run serve    # 启动 Jekyll 本地服务器
   ```
   *(注：启动后可在浏览器访问 `http://localhost:4000` 预览网站。修改 `_config.yml` 以外的文件时，网站会自动重新构建)*
+- **编译构建**:
+  ```bash
+  mise run build    # 将网站编译为静态文件
+  ```
 
 # 写作规范 (Writing Guidelines)
 - 所有博客文章必须放置在 `_posts/` 目录下。

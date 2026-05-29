@@ -1,0 +1,16 @@
+{%- if site.changyan -%}
+<!-- 畅言云评组件 -->
+<div class="changyan-comments">
+  <!-- SOHUCS 是畅言云评的容器ID。sid 是页面唯一标识符，我们使用 page.url 确保每篇文章拥有独立的评论区 -->
+  <div id="SOHUCS" sid="{{ page.url }}"></div> 
+  <!-- 引入畅言核心脚本 -->
+  <script charset="utf-8" type="text/javascript" src="https://cy-cdn.kuaizhan.com/upload/changyan.js" ></script> 
+  <script type="text/javascript"> 
+    // 配置畅言，使用 _config.yml 中动态传入的 appid 和 conf
+    window.changyan.api.config({ 
+      appid: '{{ site.changyan.appid }}', 
+      conf: '{{ site.changyan.conf }}' 
+    }); 
+  </script>
+</div>
+{%- endif -%}

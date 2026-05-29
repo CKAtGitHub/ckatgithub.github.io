@@ -1,0 +1,14 @@
+[tools]
+ruby = "3.4"
+
+[tasks.install]
+description = "安装项目依赖"
+run = "bundle install"
+
+[tasks.serve]
+description = "本地启动开发服务器"
+run = "bundle exec jekyll serve"
+
+[tasks.build]
+description = "编译构建静态文件"
+run = "bundle exec jekyll build"

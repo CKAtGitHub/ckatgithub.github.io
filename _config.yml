@@ -202,6 +202,12 @@ footer-hover-col: "#0085A1"
 #  emit-metadata: 0
 #  theme: light
 
+# To use Changyan comments:
+# 畅言云评配置（由用户提供）
+changyan:
+  appid: "cys8Rad7z"
+  conf: "prod_5ec94c3a771b19d340682836c3d5f5bd"
+
 # --- Misc --- #
 
 # Ruby Date Format to show dates of posts
