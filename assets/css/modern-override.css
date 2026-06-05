@@ -187,7 +187,7 @@ hr.small {
 .posts-list {
   display: grid;
   gap: 2.5rem;
-  margin-top: 2rem;
+  /* margin-top: 2rem; */
 }
 
 .post-preview {
@@ -506,4 +506,253 @@ footer .list-inline-item a:hover {
 .header-section.has-img .post-subheading,
 .header-section.has-img .post-meta {
   color: rgba(255,255,255,0.9);
+}
+
+/* ==========================================================================
+   标签索引页样式 (Tags Page)
+   ========================================================================== */
+
+/* 标签按钮容器 - 使用 flex 布局让标签自然换行 */
+#full-tags-list {
+  margin-top: 2rem;
+}
+
+/* 单个标签按钮 - 圆角胶囊样式，点击可跳转到对应标签分组 */
+.tag-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.3rem;
+  margin: 0.25rem;
+  padding: 0.4rem 0.85rem;
+  border-radius: 999px;
+  font-size: 0.88rem;
+  font-weight: 500;
+  background: var(--bg-color);
+  color: var(--text-muted);
+  border: 1px solid var(--border-color);
+  transition: all 0.2s;
+}
+
+.tag-btn:hover {
+  background: var(--primary);
+  color: white;
+  border-color: var(--primary);
+}
+
+/* 标签分组标题 - 每个标签的标题 */
+.linked-section {
+  margin-top: 2.5rem;
+  padding-top: 1rem;
+  border-top: 1px solid var(--border-color);
+  font-size: 1.25rem;
+  color: var(--text-main);
+}
+
+/* 标签下的文章列表 */
+.tag-entry {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 1rem;
+  padding: 0.5rem 0;
+  border-bottom: 1px dashed var(--border-color);
+}
+
+.tag-entry a {
+  color: var(--text-main);
+  font-weight: 500;
+  text-decoration: none;
+  transition: color 0.2s;
+}
+
+.tag-entry a:hover {
+  color: var(--primary);
+}
+
+.tag-entry .entry-date {
+  flex-shrink: 0;
+  font-size: 0.85rem;
+  color: var(--text-light);
+}
+
+/* ==========================================================================
+   文章归档页样式 (Archive Page)
+   ========================================================================== */
+
+/* 文章总数统计 */
+.archive-total {
+  font-size: 1rem;
+  color: var(--text-muted);
+  margin-bottom: 2rem;
+}
+
+/* 归档年份标题 - 带日历图标的年份分组标题 */
+.archive-year {
+  margin-top: 2.5rem;
+  padding-top: 1rem;
+  border-top: 1px solid var(--border-color);
+  font-size: 1.25rem;
+  color: var(--text-main);
+}
+
+/* 归档文章条目 - 日期 + 标题的横向布局 */
+.archive-entry {
+  display: flex;
+  align-items: baseline;
+  gap: 1rem;
+  padding: 0.5rem 0;
+  border-bottom: 1px dashed var(--border-color);
+}
+
+/* 归档日期 - 固定宽度的日期列 */
+.archive-date {
+  flex-shrink: 0;
+  width: 3.5rem;
+  font-size: 0.85rem;
+  color: var(--text-light);
+  font-family: var(--font-mono);
+}
+
+.archive-entry a {
+  color: var(--text-main);
+  font-weight: 500;
+  text-decoration: none;
+  transition: color 0.2s;
+}
+
+.archive-entry a:hover {
+  color: var(--primary);
+}
+
+/* ==========================================================================
+   首页布局 - 左侧文章列表 + 右侧边栏
+   ========================================================================== */
+
+.home-layout {
+  display: flex;
+  gap: 2rem;
+  align-items: flex-start;
+  margin-top: 2rem;
+}
+
+.home-layout .posts-list {
+  flex: 1;
+  min-width: 0;
+}
+
+/* 右侧边栏 */
+.home-sidebar {
+  flex: 0 0 280px;
+  position: sticky;
+  top: 2rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.sidebar-section {
+  background: var(--bg-surface);
+  border: 1px solid var(--border-color);
+  border-radius: var(--radius-md);
+  padding: 1.25rem;
+  box-shadow: var(--shadow-sm);
+}
+
+.sidebar-title {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  font-size: 1rem;
+  font-weight: 600;
+  color: var(--text-main);
+  margin: 0 0 1rem 0;
+  padding-bottom: 0.75rem;
+  border-bottom: 1px solid var(--border-color);
+}
+
+.sidebar-icon {
+  width: 18px;
+  height: 18px;
+  flex-shrink: 0;
+  color: var(--text-muted);
+}
+
+/* 归档列表 */
+.sidebar-archive {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.archive-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.5rem 0.75rem;
+  border-radius: var(--radius-sm);
+  transition: all 0.2s;
+  text-decoration: none;
+}
+
+.archive-item:hover {
+  background: var(--bg-color);
+}
+
+.archive-year {
+  font-weight: 600;
+  color: var(--text-main);
+  font-size: 0.95rem;
+}
+
+.archive-count {
+  font-size: 0.85rem;
+  color: var(--text-light);
+  background: var(--bg-color);
+  padding: 0.15rem 0.5rem;
+  border-radius: 999px;
+  min-width: 2rem;
+  text-align: center;
+}
+
+/* 侧边栏标签云 */
+.sidebar-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.4rem;
+}
+
+.sidebar-tags .tag-btn {
+  margin: 0;
+  font-size: 0.82rem;
+  padding: 0.3rem 0.65rem;
+}
+
+/* 响应式布局 - 移动端侧边栏移到下方 */
+@media (max-width: 992px) {
+  .home-layout {
+    flex-direction: column;
+  }
+
+  .home-sidebar {
+    flex: none;
+    width: 100%;
+    position: static;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+
+  .sidebar-section {
+    flex: 1;
+    min-width: 250px;
+  }
+}
+
+@media (max-width: 576px) {
+  .home-sidebar {
+    flex-direction: column;
+  }
+
+  .sidebar-section {
+    min-width: 100%;
+  }
 }

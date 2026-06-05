@@ -1,0 +1,36 @@
+---
+layout: page
+title: '文章归档'
+---
+
+{% assign date_format = site.date_format | default: "%B %-d, %Y" %}
+
+{%- comment -%}
+  按年份对所有文章进行分组归档展示
+  使用 Jekyll 内置的 date 过滤器提取年份，
+  并通过 assign/capture 实现年份标题和文章计数
+{%- endcomment -%}
+
+{%- assign posts_by_year = site.posts | group_by_exp: "post", "post.date | date: '%Y'" -%}
+
+{%- comment -%} 显示文章总数 {%- endcomment -%}
+<p class="archive-total">共 <strong>{{ site.posts | size }}</strong> 篇文章</p>
+
+<div id="archive-list">
+{%- for year_group in posts_by_year -%}
+  {%- assign year = year_group.name -%}
+  {%- assign posts = year_group.items -%}
+  <h2 id="year-{{ year }}" class="archive-year">
+    <i class="fas fa-calendar-alt" aria-hidden="true"></i>
+    &nbsp;{{ year }} 年&nbsp;({{ posts | size }} 篇)
+  </h2>
+  <div class="post-list">
+    {%- for post in posts -%}
+      <div class="archive-entry">
+        <span class="archive-date">{{ post.date | date: "%m-%d" }}</span>
+        <a href="{{ post.url | relative_url }}">{{ post.title | strip_html }}</a>
+      </div>
+    {%- endfor -%}
+  </div>
+{%- endfor -%}
+</div>
